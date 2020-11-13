@@ -1,0 +1,38 @@
+/*C3*/SET SCHEMA PUBLIC
+INSERT INTO SINAL VALUES(1252,'bbbcopia2','/images/gif/bbbCopia2.gif','/images/gif/bbbCopia2.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1253,'bbbcopia3','/images/gif/bbbCopia3.gif','/images/gif/bbbCopia3.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1254,'bbbcopia4','/images/gif/bbbCopia4.gif','/images/gif/bbbCopia4.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1255,'bbbcopia5','/images/gif/bbbCopia5.gif','/images/gif/bbbCopia5.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1256,'bbbcopia6','/images/gif/bbbCopia6.gif','/images/gif/bbbCopia6.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1257,'bbbcopia7','/images/gif/bbbCopia7.gif','/images/gif/bbbCopia7.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1258,'bbbcopia8','/images/gif/bbbCopia8.gif','/images/gif/bbbCopia8.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1259,'bbbcopia','/images/gif/bbbCopia.gif','/images/gif/bbbCopia.jpg')
+COMMIT
+INSERT INTO SINAL VALUES(1260,'bbb','/images/gif/bbb.gif','/images/gif/bbb.jpg')
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1260
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1259
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1252
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1253
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1254
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1255
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1256
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1257
+COMMIT
+DELETE FROM SINAL WHERE COD_SINAL=1258
+COMMIT
+DISCONNECT

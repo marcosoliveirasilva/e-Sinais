@@ -1,0 +1,16 @@
+Executar o seguinte comando no prompt na pasta "...\e-Sinais\lib":
+	java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
+	
+Definir a seguinte configuração no HSQL Database Manager para ter acesso ao banco de dados PUBLIC.TABELA:
+	Setting name: HSQL Database Engine
+	Type: HSQL Database Engine Standalone
+	Driver: org.hsqldb.jdbcDriver
+	URL: jdbc:hsqldb:file:../dados/banco/sinais/sinais
+	User: SA
+	Password:
+
+	Ver arquivo "Conexão BD PUBLIC.TABELA.png"
+	
+	select * from sinal ;
+	select * from sinal where nome_sinal = "pablo";
+	insert into sinal (nome_sinal, endereco_sinal) values ("pablo", "/images/gif/pablo.gif");
